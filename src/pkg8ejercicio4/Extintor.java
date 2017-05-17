@@ -34,6 +34,23 @@ public class Extintor {
     public String getFechaTimbrado(){
         return fechaTimbrado;
     }
+
+    public void setNumReferencia(int numReferencia) {
+        this.numReferencia = numReferencia;
+    }
+
+    public void setTipo(char tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public void setFechaTimbrado(String fechaTimbrado) {
+        this.fechaTimbrado = fechaTimbrado;
+    }
+    
     
     
 }
